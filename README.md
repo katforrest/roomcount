@@ -1,7 +1,9 @@
-# Description & Resources for this exercise
+# Description & Resources for this Repository
 
 ## Description 
 Please see the instructions.md file for a description of the prompt. 
+
+## Resources
 
 ## Github Carpentries
 ***This repository is an exercise in learning how to use GitHub. I'm following the tutorial made available by the Smithsonian Institution called, ["Collaborating and sharing using GitHub without command line."](https://https://miketrizna.github.io/github-without-command-line/index.html)***
