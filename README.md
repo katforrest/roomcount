@@ -1,8 +1,14 @@
-# Resources from this exercise
+# Description & Resources for this exercise
+
+## Description 
+Please see the instructions.md file for a description of the prompt. 
+
+## Github Carpentries
+***This repository is an exercise in learning how to use GitHub. I'm following the tutorial made available by the Smithsonian Institution called, ["Collaborating and sharing using GitHub without command line."](https://https://miketrizna.github.io/github-without-command-line/index.html)***
+
 
 ## Markdown
-***Part of this exercise has been learning how to use GitHub. 
-Below are some notes and resources for future reference.***
+***Part of this exercise has been learning how to use Markdown.***
 
 Save files as markdown files (.md) to utilize the formatting abilities.
 
