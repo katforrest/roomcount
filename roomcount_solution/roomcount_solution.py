@@ -32,19 +32,36 @@ for a in range(xrange):
         value = table[x][y]
         if value == 1:
             yleft = (y-1)
-            previousleftvalue = table[x][yleft]
-            if previousleftvalue == 0:
-                xup = (x-1)
-                previousupvalue = table[xup][y]
-                if previousupvalue == 1:
-                    rooms = rooms
+            if yleft >= 0: 
+                leftvalue = table[x][yleft]
+                if leftvalue == 0:
+                    xup = (x-1)
+                    if xup >= 0:
+                        upvalue = table[xup][y]
+                        if upvalue == 1:
+                            rooms = rooms
+                        else:
+                            rooms += 1
+                    else: 
+                        rooms += 1
+                    y += 1
                 else:
-                    rooms += 1
+                    rooms = rooms
+                    y += 1
             else:
-                rooms = rooms
-            y += 1
+                xup = (x-1)
+                if xup >= 0:
+                    upvalue = table[xup][y]
+                    if upvalue == 1:
+                         rooms = rooms
+                    else:
+                        rooms += 1
+                else: 
+                    rooms += 1
+                y += 1
         else:
             y += 1
     y=0
     x+=1
+
 print("there are " + str(rooms) +" rooms.")
