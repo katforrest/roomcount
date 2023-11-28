@@ -1,7 +1,8 @@
 # Description & Resources for this Repository
 
 ## Description 
-Please see the [instructions.md](https://https://github.com/katforrest/roomcount/blob/main/Instructions.md) file for a description of the prompt. 
+Please see the [instructions.md](https://https://github.com/katforrest/roomcount/blob/main/Instructions.md) file for a description of the prompt.\
+I have not found the solution. [roomcount.py](https://https://github.com/katforrest/roomcount/blob/main/roomcount_solution/roomcount.py) shows my progress.
 
 ## Github Carpentries
 ***This repository is an exercise in learning how to use GitHub. I'm following the tutorial made available by the Smithsonian Institution called, ["Collaborating and sharing using GitHub without command line."](https://https://miketrizna.github.io/github-without-command-line/index.html)***
