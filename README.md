@@ -28,9 +28,9 @@ Text formatted as code cannot be formatted in bold, underline, etc.
 **bold**
 text, the asterisks must be next to the bold text with no space. The asterisks can be on the same line.
 
-## New Code I Learned: Global()
+## New Python functions: Global()
 
-First I had to generate a bunch of 0s and 1s to run my roomcount code on. In Python, I used a list of lists.
+To run my roomcount code, I first I had to generate a bunch of 0s and 1s. I used a list of lists.
 
 To do this, I had to use the global() function.
 1. Create a variable name (row1, row2, row3... )
