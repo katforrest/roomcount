@@ -1,8 +1,7 @@
 # Description & Resources for this Repository
 
 ## Description 
-Please see the instructions.md file for a description of the prompt. 
-
+Please see the [instructions.md](https://https://github.com/katforrest/roomcount/blob/main/Instructions.md) file for a description of the prompt. 
 
 ## Github Carpentries
 ***This repository is an exercise in learning how to use GitHub. I'm following the tutorial made available by the Smithsonian Institution called, ["Collaborating and sharing using GitHub without command line."](https://https://miketrizna.github.io/github-without-command-line/index.html)***
@@ -28,3 +27,25 @@ Text formatted as code cannot be formatted in bold, underline, etc.
 >When using the ** markup to display
 **bold**
 text, the asterisks must be next to the bold text with no space. The asterisks can be on the same line.
+
+## New Python functions: Global()
+
+To run my roomcount code, I first I had to generate a bunch of 0s and 1s. I used a list of lists.
+
+To do this, I had to use the global() function.
+1. Create a variable name (row1, row2, row3... )
+2. Create a list of 0s / 1s.
+3. Used the variable name to create a new variable and define it with the list using global()[variable_name]
+4. Go to the next variable name.
+
+```
+table = []
+for i in range(5):
+    row_name = f"row_{i + 1}"
+    list = []
+    for i in range(5):
+        number = np.random.randint(0,2)
+        list.append(number)
+    globals()[row_name] = list
+    table.append(globals()[row_name])
+```
